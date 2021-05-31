@@ -1,0 +1,208 @@
+html , body{
+    margin: 0;
+}
+.atas{
+    padding-top:12px;
+    padding-bottom:12px;
+    background-color:#6495ED;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+#logo{
+    float:left;
+    margin-top:7px;
+    margin-left:10px;
+    transition: transform 1.5s;
+}
+#logo:hover{
+    transform:rotate(360deg);
+}
+.topkiri{
+    text-align:left;
+    font-size: 25px;
+    float:left;
+    margin-left:20px;
+}
+.topone{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+}
+.toptengah{
+    margin-right:120px;
+}
+.home{
+    color:#181818;
+    transition:font-size 1s;
+}
+.home:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+a:hover{
+    color:#421A4C;
+}
+a{
+    text-decoration: none;
+}
+.profile{
+    color:white;
+    transition:font-size 1s;
+}
+.profile:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+.contact{
+    color:white;
+    transition:font-size 1s;
+}
+.contact:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+.model{
+    background-color:#6495ED;
+    margin-top:40px;
+    width: 1px;
+    height:4px;
+    right:0px;
+    position:absolute;
+    animation-name:example;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+0%   {right:0px; top:40px;}
+100% {right:1066px; width:300px; top:40px;}
+}
+
+.model2{
+    background-color:#6495ED;
+    margin-top:40px;
+    width: 1px;
+    height: 4px;
+    right:0px;
+    position:absolute;
+    animation-name:example2;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes example2 {
+0%   {right:0px; top:80px;}
+100% {right:1166px; width:200px; top:80px;}
+}
+
+#mypic{
+    position:absolute;
+    top:160px;
+    left:55%;
+    width:360px;
+    transition: width 0.5s, transform 0.5s;
+    animation-name:masuk;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes masuk {
+0%   {opacity:0}
+100% {opacity:1}
+}
+#mypic:hover{
+    transform:rotate(7deg);
+    width:380px;
+}
+.center{
+    background-color:#6495ED;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: -400px;
+    width: 450px;
+    height: 230px;
+    padding: 30px;
+    animation-name:masuk;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes masuk {
+0%   {opacity:0}
+100% {opacity:1}
+}
+.center:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.modelkiri{
+    border-left: 4px solid #6495ED;
+    border-bottom: 4px solid #6495ED;
+    position:absolute;
+    left: 19%;
+    top:300px;
+    width:390px;
+    height:200px;
+    animation-name:masuk;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes masuk {
+0%   {opacity:0}
+100% {opacity:1}
+}
+.model3{
+    background-color:#6495ED;
+    width:1px;
+    height:4px;
+    left:0px;
+    margin-top: 40px;
+    position:absolute;
+    animation-name:example3;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes example3 {
+0%   {left:0px; bottom:40px;}
+100% {left:1066px; width:300px; bottom:40px;}
+}
+.model4{
+    background-color:#6495ED;   
+    width:1px;
+    height:4px;
+    left:0px;
+    margin-top:40px;
+    position:absolute;
+    animation-name:example4;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes example4 {
+0%   {left:0px; bottom:80px;}
+100% {left:1166px; width:200px; bottom:80px;}
+}
+.first{
+    color:white;
+    font-weight:bold;
+    font-family:'Trebuchet MS';
+    font-size:30px;
+}
+.second{
+    color:white;
+    font-weight:bold;
+    font-family:'Trebuchet MS';
+    font-size:60px;
+}
+.third{
+    color:white;
+    font-weight:bold;
+    font-family:'Trebuchet MS';
+    font-size:20px;
+
+}

@@ -1,0 +1,178 @@
+html , body{
+    margin: 0;
+}
+.atas{
+    padding-top:12px;
+    padding-bottom:12px;
+    background-color:#6495ED;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+#logo{
+    float:left;
+    margin-top:7px;
+    margin-left:10px;
+    transition: transform 1.5s;
+}
+#logo:hover{
+    transform:rotate(360deg);
+}
+.topkiri{
+    text-align:left;
+    font-size: 25px;
+    float:left;
+    margin-left:20px;
+}
+.topone{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+}
+.toptengah{
+    margin-right:120px;
+}
+.home{
+    color:white;
+    transition:font-size 1s;
+}
+.home:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+a:hover{
+    color:#421A4C;
+}
+a{
+    text-decoration: none;
+}
+.profile{
+    color:#181818;
+    transition:font-size 1s;
+}
+.profile:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+.contact{
+    color:white;
+    transition:font-size 1s;
+}
+.contact:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+.fotoktm{
+    height: 250px;
+    top:70px;
+    left:70px;
+    position:absolute;
+    animation-name:masuk;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes masuk {
+0%   {opacity:0}
+100% {opacity:1}
+}
+#fotosaya{
+    border-style:dashed; 
+}
+.profilkiri{
+    background-color:gray;
+    margin-top:240px;
+    height:330px;
+    width:330px;
+    margin-left:25px;
+    animation-name:masuk;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes masuk {
+0%   {opacity:0}
+100% {opacity:1}
+}
+#namagede{
+    text-align:center; 
+    font-family:'Trebuchet MS'; 
+    color:white;
+    font-size:40px;
+}
+.dot {
+    top:9%;
+    left:4%;
+    height: 275px;
+    width: 275px;
+    border:2px solid #0016e7;
+    border-radius: 50%;
+    position:absolute;
+    border-style:dashed;
+}
+.icon{
+    height:30px;
+    padding-left:20px;
+
+}
+.identity{
+    padding-left:20px;
+    color:white;
+    font-family:'Trebuchet MS';
+    font-size:20px;
+}
+.child{
+    background-color: rgba(128, 128, 128, 0.4);
+    top:12%;
+    left:30%;
+    margin:10px;
+    padding : 20px;
+    height:400px;
+    width:850px;
+    position:absolute;
+    animation-name:masuk;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes masuk {
+0%   {opacity:0}
+100% {opacity:1}
+}
+#aboutme{
+    font-size:35px;
+    color:white;
+    font-family:'Trebuchet MS'
+}
+#isiabout{
+    font-family:'Trebuchet MS';
+    color:white;
+    font-size:20px;
+    text-align:justify;
+}
+#education{
+    font-family: 'Trebuchet MS'; 
+    color:white; 
+    font-size:40px;
+}
+.edu{
+    font-family: 'Trebuchet MS'; 
+    color:white; 
+    font-size:20px;
+}
+#interest{
+    font-size:35px;
+    color:white;
+    font-family:'Trebuchet MS';
+}
+#eduinter{
+    border-right:3px solid white; 
+    width:470px; 
+    height:170px; 
+    padding-top:10px;
+}
+#iconcat{
+    padding-left:20px; 
+    height:40px;
+}

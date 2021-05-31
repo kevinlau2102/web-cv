@@ -1,0 +1,102 @@
+html , body{
+    margin: 0;
+}
+.atas{
+    padding-top:12px;
+    padding-bottom:12px;
+    background-color:#6495ED;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+#logo{
+    float:left;
+    margin-top:7px;
+    margin-left:10px;
+    transition: transform 1.5s;
+}
+#logo:hover{
+    transform:rotate(360deg);
+}
+.topkiri{
+    text-align:left;
+    font-size: 25px;
+    float:left;
+    margin-left:20px;
+}
+.topone{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+}
+.toptengah{
+    margin-right:120px;
+}
+.home{
+    color:white;
+    transition:font-size 1s;
+}
+.home:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+a:hover{
+    color:#421A4C;
+}
+a{
+    text-decoration: none;
+}
+.profile{
+    color:white;
+    transition:font-size 1s;
+}
+.profile:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+.contact{
+    color:#181818;
+    transition:font-size 1s;
+}
+.contact:hover{
+    text-shadow: 0px 0px 2px #000000;
+    font-size:27px;
+}
+.kontak{
+    position:absolute;
+    background-color: rgba(128, 128, 128, 0.4);
+    top:30%;
+    left:36%;
+    padding:15px;
+    animation-name:masuk;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes masuk {
+0%   {opacity:0}
+100% {opacity:1}
+}
+#contactme{
+    font-family:'Trebuchet MS';
+    font-size: 40px;
+    color:white;
+}
+.icon{
+    text-decoration:none;
+    height:35px;
+    margin-top:10px;
+    transition: transform 1s;
+}
+.icon:hover{
+    transform:rotate(15deg);
+}
+.descicon{
+    color:white; 
+    font-family: 'Trebuchet MS'; 
+    font-size: 25px;
+} 
+.descicon:hover{
+    text-shadow: 1px 1px 4px gray;
+}
